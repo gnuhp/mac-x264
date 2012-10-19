@@ -1,0 +1,10 @@
+
+Working on the following environment:
+- Xcode 4.5.1 (with IOS 6 support ) + Xcode command line tool 
+
+
+HOW TO COMPILE:
+
+1. sync.sh : to create mutliple src dirs, each corresponds to one arch 
+2. build.sh : to build for each arch 
+3. combine.sh : to combine specific arch lib to one fat lib (used for both iphone simulator & iphone os) 
